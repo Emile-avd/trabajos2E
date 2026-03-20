@@ -26,3 +26,4 @@ C:\Users\Danys\Documents\trabajos2E\Ferreteria\obj\Debug\net10.0\refint\Proyecto
 C:\Users\Danys\Documents\trabajos2E\Ferreteria\obj\Debug\net10.0\ProyectoIntegrador1.pdb
 C:\Users\Danys\Documents\trabajos2E\Ferreteria\obj\Debug\net10.0\ProyectoIntegrador1.genruntimeconfig.cache
 C:\Users\Danys\Documents\trabajos2E\Ferreteria\obj\Debug\net10.0\ref\ProyectoIntegrador1.dll
+C:\Users\Danys\Documents\trabajos2E\Ferreteria\obj\Debug\net10.0\ProyectoIntegrador1.sourcelink.json

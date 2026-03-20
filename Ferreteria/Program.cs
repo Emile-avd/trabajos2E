@@ -60,11 +60,11 @@ namespace ProyectoIntegrador1
                             break;
                             case 2:
                             {
-                                int opcion = 0;
+                                int opcion1 = 0;
                                 do
                                 {//banner de bienvenida
                                     Console.WriteLine("---BIENVENIDO A LA FERRETERÍA---");
-                                    opcion = Program.switchVenta(opcion);
+                                    opcion1 = Program.switchVenta(opcion1);
                                 } while (opcion != 4);
                             }                        
                             break;
