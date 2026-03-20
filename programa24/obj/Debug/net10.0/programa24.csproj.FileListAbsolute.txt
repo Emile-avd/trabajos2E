@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa24\bin\Debug\net10.0\programa24.exe
+C:\Users\Danys\Documents\trabajos2E\programa24\bin\Debug\net10.0\programa24.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa24\bin\Debug\net10.0\programa24.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa24\bin\Debug\net10.0\programa24.dll
+C:\Users\Danys\Documents\trabajos2E\programa24\bin\Debug\net10.0\programa24.pdb
+C:\Users\Danys\Documents\trabajos2E\programa24\obj\Debug\net10.0\programa24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa24\obj\Debug\net10.0\programa24.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa24\obj\Debug\net10.0\programa24.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa24\obj\Debug\net10.0\programa24.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa24\obj\Debug\net10.0\programa24.dll
+C:\Users\Danys\Documents\trabajos2E\programa24\obj\Debug\net10.0\refint\programa24.dll
+C:\Users\Danys\Documents\trabajos2E\programa24\obj\Debug\net10.0\programa24.pdb
+C:\Users\Danys\Documents\trabajos2E\programa24\obj\Debug\net10.0\programa24.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa24\obj\Debug\net10.0\ref\programa24.dll

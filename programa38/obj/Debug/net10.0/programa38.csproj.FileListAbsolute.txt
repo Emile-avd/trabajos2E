@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa38\obj\Debug\net10.0\programa38.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa38\obj\Debug\net10.0\programa38.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa38\obj\Debug\net10.0\programa38.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa38\obj\Debug\net10.0\programa38.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa38\bin\Debug\net10.0\programa38.exe
+C:\Users\Danys\Documents\trabajos2E\programa38\bin\Debug\net10.0\programa38.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa38\bin\Debug\net10.0\programa38.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa38\bin\Debug\net10.0\programa38.dll
+C:\Users\Danys\Documents\trabajos2E\programa38\bin\Debug\net10.0\programa38.pdb
+C:\Users\Danys\Documents\trabajos2E\programa38\obj\Debug\net10.0\programa38.dll
+C:\Users\Danys\Documents\trabajos2E\programa38\obj\Debug\net10.0\refint\programa38.dll
+C:\Users\Danys\Documents\trabajos2E\programa38\obj\Debug\net10.0\programa38.pdb
+C:\Users\Danys\Documents\trabajos2E\programa38\obj\Debug\net10.0\programa38.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa38\obj\Debug\net10.0\ref\programa38.dll

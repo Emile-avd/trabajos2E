@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa35\bin\Debug\net10.0\programa35.exe
+C:\Users\Danys\Documents\trabajos2E\programa35\bin\Debug\net10.0\programa35.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa35\bin\Debug\net10.0\programa35.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa35\bin\Debug\net10.0\programa35.dll
+C:\Users\Danys\Documents\trabajos2E\programa35\bin\Debug\net10.0\programa35.pdb
+C:\Users\Danys\Documents\trabajos2E\programa35\obj\Debug\net10.0\programa35.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa35\obj\Debug\net10.0\programa35.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa35\obj\Debug\net10.0\programa35.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa35\obj\Debug\net10.0\programa35.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa35\obj\Debug\net10.0\programa35.dll
+C:\Users\Danys\Documents\trabajos2E\programa35\obj\Debug\net10.0\refint\programa35.dll
+C:\Users\Danys\Documents\trabajos2E\programa35\obj\Debug\net10.0\programa35.pdb
+C:\Users\Danys\Documents\trabajos2E\programa35\obj\Debug\net10.0\programa35.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa35\obj\Debug\net10.0\ref\programa35.dll

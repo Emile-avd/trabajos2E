@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa25\bin\Debug\net10.0\programa25.exe
+C:\Users\Danys\Documents\trabajos2E\programa25\bin\Debug\net10.0\programa25.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa25\bin\Debug\net10.0\programa25.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa25\bin\Debug\net10.0\programa25.dll
+C:\Users\Danys\Documents\trabajos2E\programa25\bin\Debug\net10.0\programa25.pdb
+C:\Users\Danys\Documents\trabajos2E\programa25\obj\Debug\net10.0\programa25.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa25\obj\Debug\net10.0\programa25.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa25\obj\Debug\net10.0\programa25.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa25\obj\Debug\net10.0\programa25.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa25\obj\Debug\net10.0\programa25.dll
+C:\Users\Danys\Documents\trabajos2E\programa25\obj\Debug\net10.0\refint\programa25.dll
+C:\Users\Danys\Documents\trabajos2E\programa25\obj\Debug\net10.0\programa25.pdb
+C:\Users\Danys\Documents\trabajos2E\programa25\obj\Debug\net10.0\programa25.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa25\obj\Debug\net10.0\ref\programa25.dll

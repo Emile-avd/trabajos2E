@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\ejemploP\bin\Debug\net10.0\ejemploP.exe
+C:\Users\Danys\Documents\trabajos2E\ejemploP\bin\Debug\net10.0\ejemploP.deps.json
+C:\Users\Danys\Documents\trabajos2E\ejemploP\bin\Debug\net10.0\ejemploP.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\ejemploP\bin\Debug\net10.0\ejemploP.dll
+C:\Users\Danys\Documents\trabajos2E\ejemploP\bin\Debug\net10.0\ejemploP.pdb
+C:\Users\Danys\Documents\trabajos2E\ejemploP\obj\Debug\net10.0\ejemploP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\ejemploP\obj\Debug\net10.0\ejemploP.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\ejemploP\obj\Debug\net10.0\ejemploP.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\ejemploP\obj\Debug\net10.0\ejemploP.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\ejemploP\obj\Debug\net10.0\ejemploP.dll
+C:\Users\Danys\Documents\trabajos2E\ejemploP\obj\Debug\net10.0\refint\ejemploP.dll
+C:\Users\Danys\Documents\trabajos2E\ejemploP\obj\Debug\net10.0\ejemploP.pdb
+C:\Users\Danys\Documents\trabajos2E\ejemploP\obj\Debug\net10.0\ejemploP.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\ejemploP\obj\Debug\net10.0\ref\ejemploP.dll

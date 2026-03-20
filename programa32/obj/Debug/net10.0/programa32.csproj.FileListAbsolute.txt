@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa32\obj\Debug\net10.0\programa32.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa32\obj\Debug\net10.0\programa32.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa32\obj\Debug\net10.0\programa32.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa32\obj\Debug\net10.0\programa32.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa32\bin\Debug\net10.0\programa32.exe
+C:\Users\Danys\Documents\trabajos2E\programa32\bin\Debug\net10.0\programa32.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa32\bin\Debug\net10.0\programa32.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa32\bin\Debug\net10.0\programa32.dll
+C:\Users\Danys\Documents\trabajos2E\programa32\bin\Debug\net10.0\programa32.pdb
+C:\Users\Danys\Documents\trabajos2E\programa32\obj\Debug\net10.0\programa32.dll
+C:\Users\Danys\Documents\trabajos2E\programa32\obj\Debug\net10.0\refint\programa32.dll
+C:\Users\Danys\Documents\trabajos2E\programa32\obj\Debug\net10.0\programa32.pdb
+C:\Users\Danys\Documents\trabajos2E\programa32\obj\Debug\net10.0\programa32.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa32\obj\Debug\net10.0\ref\programa32.dll

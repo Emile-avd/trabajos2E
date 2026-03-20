@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa18\bin\Debug\net10.0\programa18.exe
+C:\Users\Danys\Documents\trabajos2E\programa18\bin\Debug\net10.0\programa18.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa18\bin\Debug\net10.0\programa18.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa18\bin\Debug\net10.0\programa18.dll
+C:\Users\Danys\Documents\trabajos2E\programa18\bin\Debug\net10.0\programa18.pdb
+C:\Users\Danys\Documents\trabajos2E\programa18\obj\Debug\net10.0\programa18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa18\obj\Debug\net10.0\programa18.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa18\obj\Debug\net10.0\programa18.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa18\obj\Debug\net10.0\programa18.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa18\obj\Debug\net10.0\programa18.dll
+C:\Users\Danys\Documents\trabajos2E\programa18\obj\Debug\net10.0\refint\programa18.dll
+C:\Users\Danys\Documents\trabajos2E\programa18\obj\Debug\net10.0\programa18.pdb
+C:\Users\Danys\Documents\trabajos2E\programa18\obj\Debug\net10.0\programa18.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa18\obj\Debug\net10.0\ref\programa18.dll

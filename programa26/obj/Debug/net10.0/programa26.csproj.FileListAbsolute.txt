@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa26\obj\Debug\net10.0\programa26.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa26\obj\Debug\net10.0\programa26.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa26\obj\Debug\net10.0\programa26.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa26\obj\Debug\net10.0\programa26.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa26\bin\Debug\net10.0\programa26.exe
+C:\Users\Danys\Documents\trabajos2E\programa26\bin\Debug\net10.0\programa26.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa26\bin\Debug\net10.0\programa26.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa26\bin\Debug\net10.0\programa26.dll
+C:\Users\Danys\Documents\trabajos2E\programa26\bin\Debug\net10.0\programa26.pdb
+C:\Users\Danys\Documents\trabajos2E\programa26\obj\Debug\net10.0\programa26.dll
+C:\Users\Danys\Documents\trabajos2E\programa26\obj\Debug\net10.0\refint\programa26.dll
+C:\Users\Danys\Documents\trabajos2E\programa26\obj\Debug\net10.0\programa26.pdb
+C:\Users\Danys\Documents\trabajos2E\programa26\obj\Debug\net10.0\programa26.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa26\obj\Debug\net10.0\ref\programa26.dll

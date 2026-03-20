@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa29\obj\Debug\net10.0\programa29.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa29\obj\Debug\net10.0\programa29.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa29\obj\Debug\net10.0\programa29.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa29\obj\Debug\net10.0\programa29.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa29\bin\Debug\net10.0\programa29.exe
+C:\Users\Danys\Documents\trabajos2E\programa29\bin\Debug\net10.0\programa29.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa29\bin\Debug\net10.0\programa29.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa29\bin\Debug\net10.0\programa29.dll
+C:\Users\Danys\Documents\trabajos2E\programa29\bin\Debug\net10.0\programa29.pdb
+C:\Users\Danys\Documents\trabajos2E\programa29\obj\Debug\net10.0\programa29.dll
+C:\Users\Danys\Documents\trabajos2E\programa29\obj\Debug\net10.0\refint\programa29.dll
+C:\Users\Danys\Documents\trabajos2E\programa29\obj\Debug\net10.0\programa29.pdb
+C:\Users\Danys\Documents\trabajos2E\programa29\obj\Debug\net10.0\programa29.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa29\obj\Debug\net10.0\ref\programa29.dll

@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa13\bin\Debug\net10.0\programa13.exe
+C:\Users\Danys\Documents\trabajos2E\programa13\bin\Debug\net10.0\programa13.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa13\bin\Debug\net10.0\programa13.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa13\bin\Debug\net10.0\programa13.dll
+C:\Users\Danys\Documents\trabajos2E\programa13\bin\Debug\net10.0\programa13.pdb
+C:\Users\Danys\Documents\trabajos2E\programa13\obj\Debug\net10.0\programa13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa13\obj\Debug\net10.0\programa13.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa13\obj\Debug\net10.0\programa13.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa13\obj\Debug\net10.0\programa13.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa13\obj\Debug\net10.0\programa13.dll
+C:\Users\Danys\Documents\trabajos2E\programa13\obj\Debug\net10.0\refint\programa13.dll
+C:\Users\Danys\Documents\trabajos2E\programa13\obj\Debug\net10.0\programa13.pdb
+C:\Users\Danys\Documents\trabajos2E\programa13\obj\Debug\net10.0\programa13.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa13\obj\Debug\net10.0\ref\programa13.dll

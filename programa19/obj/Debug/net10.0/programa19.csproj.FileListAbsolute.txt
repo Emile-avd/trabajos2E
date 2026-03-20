@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa19\bin\Debug\net10.0\programa19.exe
+C:\Users\Danys\Documents\trabajos2E\programa19\bin\Debug\net10.0\programa19.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa19\bin\Debug\net10.0\programa19.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa19\bin\Debug\net10.0\programa19.dll
+C:\Users\Danys\Documents\trabajos2E\programa19\bin\Debug\net10.0\programa19.pdb
+C:\Users\Danys\Documents\trabajos2E\programa19\obj\Debug\net10.0\programa19.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa19\obj\Debug\net10.0\programa19.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa19\obj\Debug\net10.0\programa19.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa19\obj\Debug\net10.0\programa19.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa19\obj\Debug\net10.0\programa19.dll
+C:\Users\Danys\Documents\trabajos2E\programa19\obj\Debug\net10.0\refint\programa19.dll
+C:\Users\Danys\Documents\trabajos2E\programa19\obj\Debug\net10.0\programa19.pdb
+C:\Users\Danys\Documents\trabajos2E\programa19\obj\Debug\net10.0\programa19.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa19\obj\Debug\net10.0\ref\programa19.dll

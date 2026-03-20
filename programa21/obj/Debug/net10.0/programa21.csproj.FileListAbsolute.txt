@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa21\bin\Debug\net10.0\programa21.exe
+C:\Users\Danys\Documents\trabajos2E\programa21\bin\Debug\net10.0\programa21.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa21\bin\Debug\net10.0\programa21.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa21\bin\Debug\net10.0\programa21.dll
+C:\Users\Danys\Documents\trabajos2E\programa21\bin\Debug\net10.0\programa21.pdb
+C:\Users\Danys\Documents\trabajos2E\programa21\obj\Debug\net10.0\programa21.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa21\obj\Debug\net10.0\programa21.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa21\obj\Debug\net10.0\programa21.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa21\obj\Debug\net10.0\programa21.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa21\obj\Debug\net10.0\programa21.dll
+C:\Users\Danys\Documents\trabajos2E\programa21\obj\Debug\net10.0\refint\programa21.dll
+C:\Users\Danys\Documents\trabajos2E\programa21\obj\Debug\net10.0\programa21.pdb
+C:\Users\Danys\Documents\trabajos2E\programa21\obj\Debug\net10.0\programa21.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa21\obj\Debug\net10.0\ref\programa21.dll

@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa30\bin\Debug\net10.0\programa30.exe
+C:\Users\Danys\Documents\trabajos2E\programa30\bin\Debug\net10.0\programa30.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa30\bin\Debug\net10.0\programa30.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa30\bin\Debug\net10.0\programa30.dll
+C:\Users\Danys\Documents\trabajos2E\programa30\bin\Debug\net10.0\programa30.pdb
+C:\Users\Danys\Documents\trabajos2E\programa30\obj\Debug\net10.0\programa30.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa30\obj\Debug\net10.0\programa30.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa30\obj\Debug\net10.0\programa30.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa30\obj\Debug\net10.0\programa30.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa30\obj\Debug\net10.0\programa30.dll
+C:\Users\Danys\Documents\trabajos2E\programa30\obj\Debug\net10.0\refint\programa30.dll
+C:\Users\Danys\Documents\trabajos2E\programa30\obj\Debug\net10.0\programa30.pdb
+C:\Users\Danys\Documents\trabajos2E\programa30\obj\Debug\net10.0\programa30.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa30\obj\Debug\net10.0\ref\programa30.dll

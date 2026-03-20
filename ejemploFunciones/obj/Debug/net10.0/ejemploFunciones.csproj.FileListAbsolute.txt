@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\obj\Debug\net10.0\ejemploFunciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\obj\Debug\net10.0\ejemploFunciones.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\obj\Debug\net10.0\ejemploFunciones.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\obj\Debug\net10.0\ejemploFunciones.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\bin\Debug\net10.0\ejemploFunciones.exe
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\bin\Debug\net10.0\ejemploFunciones.deps.json
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\bin\Debug\net10.0\ejemploFunciones.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\bin\Debug\net10.0\ejemploFunciones.dll
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\bin\Debug\net10.0\ejemploFunciones.pdb
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\obj\Debug\net10.0\ejemploFunciones.dll
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\obj\Debug\net10.0\refint\ejemploFunciones.dll
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\obj\Debug\net10.0\ejemploFunciones.pdb
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\obj\Debug\net10.0\ejemploFunciones.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\ejemploFunciones\obj\Debug\net10.0\ref\ejemploFunciones.dll

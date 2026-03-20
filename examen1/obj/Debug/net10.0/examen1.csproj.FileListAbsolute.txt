@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\examen1\obj\Debug\net10.0\examen1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\examen1\obj\Debug\net10.0\examen1.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\examen1\obj\Debug\net10.0\examen1.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\examen1\obj\Debug\net10.0\examen1.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\examen1\bin\Debug\net10.0\examen1.exe
+C:\Users\Danys\Documents\trabajos2E\examen1\bin\Debug\net10.0\examen1.deps.json
+C:\Users\Danys\Documents\trabajos2E\examen1\bin\Debug\net10.0\examen1.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\examen1\bin\Debug\net10.0\examen1.dll
+C:\Users\Danys\Documents\trabajos2E\examen1\bin\Debug\net10.0\examen1.pdb
+C:\Users\Danys\Documents\trabajos2E\examen1\obj\Debug\net10.0\examen1.dll
+C:\Users\Danys\Documents\trabajos2E\examen1\obj\Debug\net10.0\refint\examen1.dll
+C:\Users\Danys\Documents\trabajos2E\examen1\obj\Debug\net10.0\examen1.pdb
+C:\Users\Danys\Documents\trabajos2E\examen1\obj\Debug\net10.0\examen1.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\examen1\obj\Debug\net10.0\ref\examen1.dll

@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa37\obj\Debug\net10.0\programa37.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa37\obj\Debug\net10.0\programa37.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa37\obj\Debug\net10.0\programa37.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa37\obj\Debug\net10.0\programa37.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa37\bin\Debug\net10.0\programa37.exe
+C:\Users\Danys\Documents\trabajos2E\programa37\bin\Debug\net10.0\programa37.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa37\bin\Debug\net10.0\programa37.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa37\bin\Debug\net10.0\programa37.dll
+C:\Users\Danys\Documents\trabajos2E\programa37\bin\Debug\net10.0\programa37.pdb
+C:\Users\Danys\Documents\trabajos2E\programa37\obj\Debug\net10.0\programa37.dll
+C:\Users\Danys\Documents\trabajos2E\programa37\obj\Debug\net10.0\refint\programa37.dll
+C:\Users\Danys\Documents\trabajos2E\programa37\obj\Debug\net10.0\programa37.pdb
+C:\Users\Danys\Documents\trabajos2E\programa37\obj\Debug\net10.0\programa37.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa37\obj\Debug\net10.0\ref\programa37.dll

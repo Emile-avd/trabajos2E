@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa34\obj\Debug\net10.0\programa34.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa34\obj\Debug\net10.0\programa34.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa34\obj\Debug\net10.0\programa34.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa34\obj\Debug\net10.0\programa34.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa34\bin\Debug\net10.0\programa34.exe
+C:\Users\Danys\Documents\trabajos2E\programa34\bin\Debug\net10.0\programa34.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa34\bin\Debug\net10.0\programa34.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa34\bin\Debug\net10.0\programa34.dll
+C:\Users\Danys\Documents\trabajos2E\programa34\bin\Debug\net10.0\programa34.pdb
+C:\Users\Danys\Documents\trabajos2E\programa34\obj\Debug\net10.0\programa34.dll
+C:\Users\Danys\Documents\trabajos2E\programa34\obj\Debug\net10.0\refint\programa34.dll
+C:\Users\Danys\Documents\trabajos2E\programa34\obj\Debug\net10.0\programa34.pdb
+C:\Users\Danys\Documents\trabajos2E\programa34\obj\Debug\net10.0\programa34.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa34\obj\Debug\net10.0\ref\programa34.dll

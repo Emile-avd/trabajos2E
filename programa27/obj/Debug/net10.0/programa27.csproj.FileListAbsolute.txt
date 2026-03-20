@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa27\bin\Debug\net10.0\programa27.exe
+C:\Users\Danys\Documents\trabajos2E\programa27\bin\Debug\net10.0\programa27.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa27\bin\Debug\net10.0\programa27.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa27\bin\Debug\net10.0\programa27.dll
+C:\Users\Danys\Documents\trabajos2E\programa27\bin\Debug\net10.0\programa27.pdb
+C:\Users\Danys\Documents\trabajos2E\programa27\obj\Debug\net10.0\programa27.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa27\obj\Debug\net10.0\programa27.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa27\obj\Debug\net10.0\programa27.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa27\obj\Debug\net10.0\programa27.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa27\obj\Debug\net10.0\programa27.dll
+C:\Users\Danys\Documents\trabajos2E\programa27\obj\Debug\net10.0\refint\programa27.dll
+C:\Users\Danys\Documents\trabajos2E\programa27\obj\Debug\net10.0\programa27.pdb
+C:\Users\Danys\Documents\trabajos2E\programa27\obj\Debug\net10.0\programa27.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa27\obj\Debug\net10.0\ref\programa27.dll

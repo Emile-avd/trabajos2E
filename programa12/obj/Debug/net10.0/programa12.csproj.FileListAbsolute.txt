@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa12\bin\Debug\net10.0\programa12.exe
+C:\Users\Danys\Documents\trabajos2E\programa12\bin\Debug\net10.0\programa12.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa12\bin\Debug\net10.0\programa12.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa12\bin\Debug\net10.0\programa12.dll
+C:\Users\Danys\Documents\trabajos2E\programa12\bin\Debug\net10.0\programa12.pdb
+C:\Users\Danys\Documents\trabajos2E\programa12\obj\Debug\net10.0\programa12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa12\obj\Debug\net10.0\programa12.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa12\obj\Debug\net10.0\programa12.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa12\obj\Debug\net10.0\programa12.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa12\obj\Debug\net10.0\programa12.dll
+C:\Users\Danys\Documents\trabajos2E\programa12\obj\Debug\net10.0\refint\programa12.dll
+C:\Users\Danys\Documents\trabajos2E\programa12\obj\Debug\net10.0\programa12.pdb
+C:\Users\Danys\Documents\trabajos2E\programa12\obj\Debug\net10.0\programa12.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa12\obj\Debug\net10.0\ref\programa12.dll

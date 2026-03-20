@@ -1,0 +1,14 @@
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\bin\Debug\net10.0\programa29dowhile.exe
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\bin\Debug\net10.0\programa29dowhile.deps.json
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\bin\Debug\net10.0\programa29dowhile.runtimeconfig.json
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\bin\Debug\net10.0\programa29dowhile.dll
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\bin\Debug\net10.0\programa29dowhile.pdb
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\obj\Debug\net10.0\programa29dowhile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\obj\Debug\net10.0\programa29dowhile.AssemblyInfoInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\obj\Debug\net10.0\programa29dowhile.AssemblyInfo.cs
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\obj\Debug\net10.0\programa29dowhile.csproj.CoreCompileInputs.cache
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\obj\Debug\net10.0\programa29dowhile.dll
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\obj\Debug\net10.0\refint\programa29dowhile.dll
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\obj\Debug\net10.0\programa29dowhile.pdb
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\obj\Debug\net10.0\programa29dowhile.genruntimeconfig.cache
+C:\Users\Danys\Documents\trabajos2E\programa29dowhile\obj\Debug\net10.0\ref\programa29dowhile.dll
