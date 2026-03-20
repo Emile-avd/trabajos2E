@@ -65,7 +65,7 @@ namespace ProyectoIntegrador1
                                 {//banner de bienvenida
                                     Console.WriteLine("---BIENVENIDO A LA FERRETERÍA---");
                                     opcion1 = Program.switchVenta(opcion1);
-                                } while (opcion != 4);
+                                } while (opcion1 != 4);
                             }                        
                             break;
                             case 3:
@@ -109,37 +109,41 @@ namespace ProyectoIntegrador1
             
         static int switchVenta (int opcion )
         {
-            opcion = MostrarMenuVenta();   
-            switch (opcion)
+            opcion = MostrarMenuVenta();
+            do
             {
-                case 1:
+                switch (opcion)
                 {
-                    Program.MostrarInventario();
-                    Program.Venta();       
-                }                        
-                break;
-                case 2:
-                {
-                    Program.MostrarInventario();
+                    case 1:
+                    {
+                        Program.MostrarInventario();
+                        Program.Venta();       
+                    }                        
+                    break;
+                    case 2:
+                    {
+                        Program.MostrarInventario();
+                    }
+                    break;
+                    case 3:
+                    {
+                        Program.MostrarProducto();
+                    }
+                    break;
+                    case 4:
+                    {
+                        Console.WriteLine("Saliendo del programa...");
+                    }
+                    break;
+                    default:
+                    {
+                        Console.WriteLine("Opción no válida. Por favor, seleccione una opción válida.");
+                    } 
+                    break;
                 }
-                break;
-                case 3:
-                {
-                    Program.MostrarProducto();
-                }
-                break;
-                case 4:
-                {
-                    Console.WriteLine("Saliendo del programa...");
-                }
-                break;
-                default:
-                {
-                    Console.WriteLine("Opción no válida. Por favor, seleccione una opción válida.");
-                } 
-                break;
-            }
             return opcion;
+            }while (opcion != 4);
+            
         }
 
         static void Venta()
