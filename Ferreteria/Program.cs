@@ -19,8 +19,62 @@ namespace ProyectoIntegrador1
     {
         static StreamReader Leer;
         static StreamWriter Escribir;
+
+        // ===== FUNCIONES AUXILIARES PARA PRESENTACIÓN =====
+        static void MostrarTitulo(string titulo)
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("\n╔════════════════════════════════════════════════════════════════╗");
+            Console.WriteLine($"║ {titulo.PadRight(62)} ║");
+            Console.WriteLine("╚════════════════════════════════════════════════════════════════╝\n");
+            Console.ResetColor();
+        }
+
+        static void MostrarExito(string mensaje)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"✓ {mensaje}");
+            Console.ResetColor();
+        }
+
+        static void MostrarError(string mensaje)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"✗ {mensaje}");
+            Console.ResetColor();
+        }
+
+        static void MostrarAdvertencia(string mensaje)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"⚠ {mensaje}");
+            Console.ResetColor();
+        }
+
+        static void MostrarInfo(string mensaje)
+        {
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine($"ℹ {mensaje}");
+            Console.ResetColor();
+        }
+
+        static void MostrarLinea()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("─────────────────────────────────────────────────────────────────");
+            Console.ResetColor();
+        }
+
+        static void MostrarOpcion(int numero, string descripcion)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write($"{numero}. ");
+            Console.ResetColor();
+            Console.WriteLine(descripcion);
+        }
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
             Dictionary<string, (string password, string role)> usuarios = new Dictionary<string, (string, string)>
             {
                 { "admin", ("123", "Administrador") },
@@ -29,32 +83,44 @@ namespace ProyectoIntegrador1
             int op = 0;
             do 
              {
-            Console.WriteLine("----SISTEMA DE INICIO DE SESIÓN----");
+            Console.Clear();
+            MostrarTitulo("🔐 SISTEMA DE INICIO DE SESIÓN");
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write("Usuario: ");
+            Console.ResetColor();
             string usuario = Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write("Contraseña: ");
+            Console.ResetColor();
             string contraseña = Console.ReadLine();
             
             if (usuarios.ContainsKey(usuario) && usuarios[usuario].password == contraseña)
             {
-                Console.WriteLine($"Acceso concedido. Rol: {usuarios[usuario].role}");
+                MostrarExito($"¡Acceso concedido! Rol: {usuarios[usuario].role}");
+                System.Threading.Thread.Sleep(1500);
+                Console.Clear();
                 
                 if (usuarios[usuario].role == "Administrador")
                 {
-                    Console.WriteLine("Tienes acceso completo al sistema.");
+                    MostrarExito("Tienes acceso completo al sistema.");
                     int opcion;
                     do
-                    {//banner de bienvenida
-                        Console.WriteLine("---BIENVENIDO A LA FERRETERÍA---");
-                        Console.WriteLine("1.-Inventario");
-                        Console.WriteLine("2.-Hacer una venta");
-                        Console.WriteLine("3.-Salir");
+                    {
+                        Console.Clear();
+                        MostrarTitulo("🏪 BIENVENIDO A LA FERRETERÍA - ADMINISTRADOR");
+                        MostrarOpcion(1, "Gestionar Inventario");
+                        MostrarOpcion(2, "Realizar una Venta");
+                        MostrarOpcion(3, "Salir del Programa");
+                        MostrarLinea();
+                        Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.Write("Seleccione una opción: ");
+                        Console.ResetColor();
                         opcion = Convert.ToInt32(Console.ReadLine());
                         switch (opcion)
                         {
                             case 1:
                             {
+                                Console.Clear();
                                 Program.Inventario();
                             }
                             break;
@@ -62,20 +128,21 @@ namespace ProyectoIntegrador1
                             {
                                 int opcion1 = 0;
                                 do
-                                {//banner de bienvenida
-                                    Console.WriteLine("---BIENVENIDO A LA FERRETERÍA---");
+                                {
+                                    Console.Clear();
                                     opcion1 = Program.switchVenta(opcion1);
                                 } while (opcion1 != 4);
                             }                        
                             break;
                             case 3:
                             {
-                                Console.WriteLine("Saliendo del programa...");
+                                MostrarExito("Saliendo del programa...");
                             }
                             break;
                             default:
                             {
-                                Console.WriteLine("Opción no válida. Por favor, seleccione una opción válida.");
+                                MostrarError("Opción no válida. Por favor, seleccione una opción válida.");
+                                System.Threading.Thread.Sleep(1500);
                             } 
                             break;
                         }
@@ -84,24 +151,29 @@ namespace ProyectoIntegrador1
                 }
                 else if (usuarios[usuario].role == "Vendedor")
                 {
-                    Console.WriteLine("Tienes acceso limitado a ventas.");
+                    MostrarInfo("Tienes acceso limitado a ventas.");
+                    System.Threading.Thread.Sleep(1500);
+                    Console.Clear();
                     int opcion = 0;
                     do
-                    {//banner de bienvenida
-                        Console.WriteLine("---BIENVENIDO A LA FERRETERÍA---");
+                    {
+                        Console.Clear();
+                        MostrarTitulo("🏪 BIENVENIDO A LA FERRETERÍA - VENDEDOR");
                         opcion = Program.switchVenta(opcion);
                     } while (opcion != 4);
                 }
             }
         else
         {
-            Console.WriteLine("Usuario o contraseña incorrectos.");
+            MostrarError("Usuario o contraseña incorrectos.");
+            System.Threading.Thread.Sleep(2000);
+            Console.Clear();
         }
-        Console.WriteLine("Salir del programa? (1 = Sí, 2 = No)");
+        MostrarAdvertencia("¿Salir del programa? (1 = Sí, 2 = No):");
         op = Convert.ToInt32(Console.ReadLine());
         if (op != 1 && op != 2)
         {
-            Console.WriteLine("Opción no válida.");
+            MostrarError("Opción no válida.");
         }
         } while (op != 1);
         }
@@ -148,10 +220,14 @@ namespace ProyectoIntegrador1
 
         static void Venta()
         {
-            Console.WriteLine("****HACER UNA VENTA****");
-            Console.Write("Ingresa el ID del producto a vender: ");
+            MostrarTitulo("💳 REALIZAR UNA VENTA");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("ID del producto a vender: ");
+            Console.ResetColor();
             int idVenta = int.Parse(Console.ReadLine());
-            Console.Write("Ingresa la cantidad a vender: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("Cantidad a vender: ");
+            Console.ResetColor();
             int cantidadVenta = int.Parse(Console.ReadLine());
             var lineas = File.ReadAllLines("archivo.txt").ToList();
             int index = lineas.FindIndex(line => line.StartsWith(idVenta.ToString() + " |"));
@@ -163,24 +239,42 @@ namespace ProyectoIntegrador1
                 if (cantidadVenta <= stockActual)
                 {
                     stockActual -= cantidadVenta;
-                    lineas[index] = $"{idVenta} | {partes[1].Trim()} | {stockActual} | ${precioUnitario}";
+                    lineas[index] = $"{idVenta.ToString().PadRight(5)} | {partes[1].Trim().PadRight(25)} | {stockActual.ToString().PadRight(8)} | ${precioUnitario.ToString().PadRight(10)}";
                     File.WriteAllLines("archivo.txt", lineas);
                     decimal totalVenta = cantidadVenta * precioUnitario;
                     DateTime ahora = DateTime.Now;
-                    Console.WriteLine($"----FERRETERIA----");
-                    Console.WriteLine(ahora.ToString("dd/MM/yyyy"));
+                    
+                    Console.Clear();
+                    MostrarTitulo("🧾 COMPROBANTE DE VENTA");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"Fecha: {ahora.ToString("dd/MM/yyyy HH:mm:ss")}");
+                    Console.WriteLine(new string('─', 65));
+                    Console.ResetColor();
                     Console.WriteLine($"Producto: {partes[1].Trim()}");
-                    Console.WriteLine($"Cantidad: {cantidadVenta}");
-                    Console.WriteLine($"Total: ${totalVenta}");
+                    Console.WriteLine($"Cantidad: {cantidadVenta} unidad(es)");
+                    Console.WriteLine($"Precio unitario: ${precioUnitario:F2}");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine(new string('═', 65));
+                    Console.ResetColor();
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"TOTAL: ${totalVenta:F2}");
+                    Console.ResetColor();
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine(new string('═', 65));
+                    Console.ResetColor();
+                    MostrarExito("¡Venta realizada exitosamente!");
+                    System.Threading.Thread.Sleep(2000);
                 }
                 else
                 {
-                    Console.WriteLine("Stock insuficiente para realizar la venta.");
+                    MostrarError("Stock insuficiente para realizar la venta.");
+                    System.Threading.Thread.Sleep(1500);
                 }
             }
             else
             {
-                Console.WriteLine("Producto no encontrado.");
+                MostrarError("Producto no encontrado.");
+                System.Threading.Thread.Sleep(1500);
             }
         }
 
@@ -189,87 +283,128 @@ namespace ProyectoIntegrador1
             int opcion1=0;
             do
             {
-            //banner de el sistema de archivos
-            Console.WriteLine("****INVENTARIO****");
-            Console.WriteLine("1. Agregar producto");
-            Console.WriteLine("2. Eliminar producto");
-            Console.WriteLine("3. Editar producto");
-            Console.WriteLine("4. Mostrar inventario");
-            Console.WriteLine("5. Salir");
-            Console.Write("Seleccione una opción: ");
-            opcion1 = int.Parse(Console.ReadLine());
+                Console.Clear();
+                MostrarTitulo("📦 GESTIÓN DE INVENTARIO");
+                MostrarOpcion(1, "Agregar nuevo Producto");
+                MostrarOpcion(2, "Eliminar Producto");
+                MostrarOpcion(3, "Editar Producto");
+                MostrarOpcion(4, "Mostrar Inventario");
+                MostrarOpcion(5, "Salir");
+                MostrarLinea();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write("Seleccione una opción: ");
+                Console.ResetColor();
+                opcion1 = int.Parse(Console.ReadLine());
 
-            switch (opcion1)
-            {
-                case 1:
-                    {
-                        Program.AgregarProducto();
-                    }
-                break;
-                case 2:
-                    {//elimina un elemento
-                        Program.EliminarProducto(); 
-                    }
-                break;
-                case 3:
-                    {
-                        Program.EditarProducto();
-                    }
-                break;
-                case 4:
-                    {
-                        Program.MostrarInventario();
-                    }
-                break;
-                case 5:
-                    {
-                        Console.WriteLine("Saliendo del Inventario...");
-                    }
-                break;
-                default:
-                    {
-                        Console.WriteLine("Opción no válida, por favor intente de nuevo.");
-                    }    
-                break;
-            }
-        }while(opcion1 != 5);
+                switch (opcion1)
+                {
+                    case 1:
+                        {
+                            Console.Clear();
+                            Program.AgregarProducto();
+                        }
+                    break;
+                    case 2:
+                        {
+                            Console.Clear();
+                            Program.EliminarProducto(); 
+                        }
+                    break;
+                    case 3:
+                        {
+                            Console.Clear();
+                            Program.EditarProducto();
+                        }
+                    break;
+                    case 4:
+                        {
+                            Console.Clear();
+                            Program.MostrarInventario();
+                            MostrarLinea();
+                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            Console.Write("Presione ENTER para continuar...");
+                            Console.ResetColor();
+                            Console.ReadLine();
+                        }
+                    break;
+                    case 5:
+                        {
+                            MostrarExito("Saliendo del Inventario...");
+                            System.Threading.Thread.Sleep(1000);
+                        }
+                    break;
+                    default:
+                        {
+                            MostrarError("Opción no válida, por favor intente de nuevo.");
+                            System.Threading.Thread.Sleep(1500);
+                        }    
+                    break;
+                }
+            }while(opcion1 != 5);
         }
 
         static void MostrarInventario()
         {
+            MostrarTitulo("📋 LISTADO DE INVENTARIO");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("ID    | Nombre                    | Stock    | Precio    ");
+            Console.WriteLine("-----|---------------------------|----------|--------- ");
+            Console.ResetColor();
             StreamReader mostrar = new StreamReader("archivo.txt");
-            Console.WriteLine(mostrar.ReadToEnd());
+            string contenido = mostrar.ReadToEnd();
+            if (string.IsNullOrEmpty(contenido))
+            {
+                MostrarAdvertencia("El inventario está vacío.");
+            }
+            else
+            {
+                Console.WriteLine(contenido);
+            }
             mostrar.Close();
         }
         static void EditarProducto()
         {
-            Console.WriteLine("Editar producto");
-            Console.Write("Ingresa el ID del producto a editar: ");
+            MostrarTitulo("✏️  EDITAR PRODUCTO");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("ID del producto a editar: ");
+            Console.ResetColor();
             int idEditar = int.Parse(Console.ReadLine());
             var lineas = File.ReadAllLines("archivo.txt").ToList();
             int index = lineas.FindIndex(line => line.StartsWith(idEditar.ToString() + " |"));
             if (index != -1)
             {
                 var partes = lineas[index].Split('|');
-                Console.Write("Ingresa el nuevo nombre del producto: ");
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("Nuevo nombre del producto: ");
+                Console.ResetColor();
                 string nuevoNombre = Console.ReadLine();
-                Console.Write("Ingresa el nuevo stock del producto: ");
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("Nuevo stock del producto: ");
+                Console.ResetColor();
                 int nuevoStock = int.Parse(Console.ReadLine());
-                Console.Write("Ingresa el nuevo precio del producto: ");
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("Nuevo precio del producto: ");
+                Console.ResetColor();
                 decimal nuevoPrecio = decimal.Parse(Console.ReadLine());
-                lineas[index] = $"{idEditar} | {nuevoNombre} | {nuevoStock} | ${nuevoPrecio}";
+                lineas[index] = $"{idEditar.ToString().PadRight(5)} | {nuevoNombre.PadRight(25)} | {nuevoStock.ToString().PadRight(8)} | ${nuevoPrecio.ToString().PadRight(10)}";
                 File.WriteAllLines("archivo.txt", lineas);
-                Console.WriteLine("Producto editado exitosamente.");
+                MostrarExito("¡Producto editado exitosamente!");
+                System.Threading.Thread.Sleep(1500);
+                Console.Clear();
             }
             else
             {
-                Console.WriteLine("Producto no encontrado.");
+                MostrarError("Producto no encontrado.");
+                System.Threading.Thread.Sleep(1500);
+                Console.Clear();
             }
         }
         static void EliminarProducto()
         {
-            Console.WriteLine("Eliminar producto");
-            Console.Write("Ingresa el ID del producto a eliminar: ");
+            MostrarTitulo("🗑️  ELIMINAR PRODUCTO");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("ID del producto a eliminar: ");
+            Console.ResetColor();
             int idEliminar = int.Parse(Console.ReadLine());
             var lineas = File.ReadAllLines("archivo.txt").ToList();
             int index = lineas.FindIndex(line => line.StartsWith(idEliminar.ToString() + " |"));
@@ -277,53 +412,79 @@ namespace ProyectoIntegrador1
             {
                 lineas.RemoveAt(index);
                 File.WriteAllLines("archivo.txt", lineas);
-                Console.WriteLine("Producto eliminado exitosamente.");
+                MostrarExito("¡Producto eliminado exitosamente!");
+                System.Threading.Thread.Sleep(1500);
+                Console.Clear();
             }
             else
             {
-                Console.WriteLine("Producto no encontrado.");
+                MostrarError("Producto no encontrado.");
+                System.Threading.Thread.Sleep(1500);
+                Console.Clear();
             }
         }
         static void AgregarProducto()
         {
-            Console.WriteLine("Agregar producto");
-            Console.Write("Ingresa el ID del nuevo producto: ");
+            MostrarTitulo("➕ AGREGAR NUEVO PRODUCTO");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("ID del producto: ");
+            Console.ResetColor();
             int idNuevo = int.Parse(Console.ReadLine());
-            Console.Write("Ingresa el nombre del nuevo producto: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("Nombre del producto: ");
+            Console.ResetColor();
             string nombreNuevo = Console.ReadLine();
-            Console.Write("Ingresa el stock del nuevo producto: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("Stock del producto: ");
+            Console.ResetColor();
             int stockNuevo = int.Parse(Console.ReadLine());
-            Console.Write("Ingresa el precio del nuevo producto: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("Precio del producto: ");
+            Console.ResetColor();
             decimal precioNuevo = decimal.Parse(Console.ReadLine());
-            string nuevaLinea = $"{idNuevo} | {nombreNuevo} | {stockNuevo} | ${precioNuevo}";
+            string nuevaLinea = $"{idNuevo.ToString().PadRight(5)} | {nombreNuevo.PadRight(25)} | {stockNuevo.ToString().PadRight(8)} | ${precioNuevo.ToString().PadRight(10)}";
             File.AppendAllText("archivo.txt", nuevaLinea + Environment.NewLine);
-            Console.WriteLine("Producto agregado exitosamente.");
+            MostrarExito("¡Producto agregado exitosamente!");
+            System.Threading.Thread.Sleep(1500);
+            Console.Clear();
         }
         static int MostrarMenuVenta()
         {
-            Console.WriteLine("****HACER UNA VENTA****");
-            Console.WriteLine("1. Vender producto");
-            Console.WriteLine("2. Ver inventario");
-            Console.WriteLine("3. Ver producto ");
-            Console.WriteLine("4. Salir");
+            Console.Clear();
+            MostrarTitulo("💳 SISTEMA DE VENTAS");
+            MostrarOpcion(1, "Vender Producto");
+            MostrarOpcion(2, "Ver Inventario");
+            MostrarOpcion(3, "Ver Información de Producto");
+            MostrarOpcion(4, "Salir");
+            MostrarLinea();
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("Seleccione una opción: ");
+            Console.ResetColor();
             int opcion = int.Parse(Console.ReadLine());
             return opcion;
         }
         static void MostrarProducto()
         {
-            Console.WriteLine("Mostrar producto");
-            Console.Write("Ingresa el ID del producto a mostrar: ");
+            MostrarTitulo("🔍 VER INFORMACIÓN DE PRODUCTO");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write("ID del producto: ");
+            Console.ResetColor();
             int idMostrar = int.Parse(Console.ReadLine());
             var lineas = File.ReadAllLines("archivo.txt").ToList();
             int index = lineas.FindIndex(line => line.StartsWith(idMostrar.ToString() + " |"));
             if (index != -1)
             {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("ID    | Nombre                    | Stock    | Precio    ");
+                Console.WriteLine("-----|---------------------------|----------|--------- ");
+                Console.ResetColor();
                 Console.WriteLine(lineas[index]);
+                System.Threading.Thread.Sleep(2000);
             }
             else
             {
-                Console.WriteLine("Producto no encontrado.");
+                MostrarError("Producto no encontrado.");
+                System.Threading.Thread.Sleep(1500);
             }
         }
     }

@@ -1,4 +1,2 @@
-ID - Nombre - Stock - Precio
-3 | Papel Higienico | 2 | $5
-1 | Clavos de concreto | 20 | $12
-2 | Martillo | 45 | $55
+
+1     | Martillo                  | 50       | $30        
