@@ -230,7 +230,7 @@ namespace ProyectoIntegrador1
             Console.ResetColor();
             int cantidadVenta = int.Parse(Console.ReadLine());
             var lineas = File.ReadAllLines("archivo.txt").ToList();
-            int index = lineas.FindIndex(line => line.StartsWith(idVenta.ToString() + " |"));
+            int index = lineas.FindIndex(line => line.StartsWith(idVenta.ToString().PadRight(5)));
             if (index != -1)
             {
                 var partes = lineas[index].Split('|');
